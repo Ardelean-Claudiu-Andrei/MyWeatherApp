@@ -2,7 +2,7 @@ import { React, useCallback, useState } from 'react';
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View, ImageBackground, TextInput, ActivityIndicator, KeyboardAvoidingView } from 'react-native';
 import axios from 'axios';
-
+//test
 export default function App() {
 
   const [input, setInput] = useState('');
