@@ -10,7 +10,7 @@ This repository contains the "Weather App" project that I made during the intern
 
 ## Video
 
-https://github.com/Ardelean-Claudiu-Andrei/HelpMAP/assets/91498815/c915957e-07a9-4ea9-be4d-8af264638bab
+https://github.com/Ardelean-Claudiu-Andrei/MyWeatherApp/assets/91498815/e2b9fa2d-5bd0-49ad-af57-dff156b10679
 
 # App Structure
 The app consists of two main components:
