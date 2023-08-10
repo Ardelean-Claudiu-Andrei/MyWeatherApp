@@ -48,7 +48,8 @@ export default function App() {
       <ImageBackground
         source={getBackgroundImage(data?.main?.temp)}
         resizeMode="cover"
-        style={styles.image}
+        style={styles.imageContainer}
+        imageStyle={styles.image}
       >
         <SearchInput
           input={input}
@@ -91,6 +92,7 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: "#fff",
     justifyContent: "center",
+    alignItems: "center",
   },
   dateText: {
     color: "#fff",
@@ -109,7 +111,6 @@ const styles = StyleSheet.create({
   imageContainer: {
     flex: 1,
     width: "100%",
-    flexDirection: "column",
   },
   infoView: {
     alignItems: "center",
@@ -119,8 +120,5 @@ const styles = StyleSheet.create({
     color: "#fff",
     marginVertical: 10,
     fontWeight: "500",
-  },
-  root: {
-    flex: 1,
   },
 });
